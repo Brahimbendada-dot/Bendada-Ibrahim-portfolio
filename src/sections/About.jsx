@@ -48,7 +48,7 @@ const About = () => {
                         </h2>
                         <div className="space-y-4 text-gray-300">
                             <p>
-                                I'm a passionate, about <a href="#" className="underline decoration-green-500 underline-offset-4">Computer Science</a> and full-stack developer specializing in both <strong>web</strong> and <strong>mobile</strong> development. I work primarily with <strong>React.js, Node.js</strong>, and <strong>Flutter (Dart)</strong>, and I love bringing together the technical and visual aspects of digital products. User experience, pixel-perfect design, accessibility, and writing clean, readable, high-performance code truly matter to me.
+                                I'm a passionate <a href="#" className="underline decoration-green-500 underline-offset-4">Computer Science</a> and full-stack developer specializing in both <strong>web</strong> and <strong>mobile</strong> development. I work primarily with <strong>React.js, Node.js</strong>, and <strong>Flutter (Dart)</strong>, and I love bringing together the technical and visual aspects of digital products. User experience, pixel-perfect design, accessibility, and writing clean, readable, high-performance code truly matter to me.
                             </p>
 
                             <p>

@@ -13,7 +13,7 @@ export const experiences = [
     },
     {
         logo: '/assets/transigo.svg',
-        role: 'Founder & Full-Stack Web / Mobile Developer',
+        role: 'Founder & Full-Stack Web/Mobile Developer',
         company: 'Startup Project (Projet Innovant)',
         startDate: 'Nov 2024',
         endDate: 'Present',

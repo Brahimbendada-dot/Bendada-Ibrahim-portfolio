@@ -18,7 +18,7 @@ const Hero = () => {
                             Hi, I’m Ibrahim Bendada
                         </h1>
                         <p className="text-base md:text-lg text-gray-300 max-w-xl">
-                            I’m a full-stack developer with experience in web and mobile development, specializing in React.js, Node.js, and Flutter (Dart). I focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and fully responsive across platforms. Even after more than 5 years of building web and mobile applications.
+                            I’m a full-stack developer with experience in web and mobile development, specializing in React.js, Node.js, and Flutter (Dart). I focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and fully responsive across platforms—with more than 5 years of experience building web and mobile applications.
                         </p>
 
                         <div className="space-y-2 text-gray-300">

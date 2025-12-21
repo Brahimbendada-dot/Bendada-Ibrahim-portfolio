@@ -12,17 +12,17 @@ export const projects = [
         title: 'Creative',
         description:
             'A creative and modern architect portfolio website designed to showcase projects with a strong focus on visuals, layout, and user experience.',
-        tags: ['PostgreSQL', 'Express.js','React','Node.js'],
+        tags: ['PostgreSQL', 'Express.js', 'React', 'Node.js'],
         image: '/assets/creative.png',
         link: '#',
         github: '#',
     },
 
     {
-        title: 'Gros shop delivery',
+        title: 'Gros Shop Delivery',
         description:
             'A B2B wholesale e-commerce platform enabling bulk product purchasing, order management, and scalable business workflows for professional clients.',
-        tags: ['Flutter', 'Php', 'MySQL', 'FCM','Getx'],
+        tags: ['Flutter', 'PHP', 'MySQL', 'FCM', 'GetX'],
         image: '/assets/ecomerce.jpg',
         link: '#',
         github: '#',

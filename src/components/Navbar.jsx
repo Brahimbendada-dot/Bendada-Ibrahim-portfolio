@@ -40,9 +40,13 @@ const Navbar = () => {
                             </a>
                         ))}
                         <div className="h-6 w-px bg-gray-700"></div>
-                        <button className="bg-white text-gray-900 px-4 py-2 rounded-xl font-medium hover:bg-gray-200 transition-colors">
+                        <a
+                            href="/cv_ibrahim_bendada_10_2025.pdf"
+                            download="cv_ibrahim_bendada.pdf"
+                            className="bg-white text-gray-900 px-4 py-2 rounded-xl font-medium hover:bg-gray-200 transition-colors"
+                        >
                             Download CV
-                        </button>
+                        </a>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -78,9 +82,14 @@ const Navbar = () => {
                                 </a>
                             ))}
                             <div className="pt-4">
-                                <button className="w-full bg-white text-gray-900 px-4 py-2 rounded-xl font-medium hover:bg-gray-200 transition-colors">
+                                <a
+                                    href="/cv_ibrahim_bendada_10_2025.pdf"
+                                    download="cv_ibrahim_bendada.pdf"
+                                    className="block w-full text-center bg-white text-gray-900 px-4 py-2 rounded-xl font-medium hover:bg-gray-200 transition-colors"
+                                    onClick={() => setIsOpen(false)}
+                                >
                                     Download CV
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </motion.div>
