@@ -1,28 +1,29 @@
 export const projects = [
     {
-        title: 'Fiskil',
+        title: 'Transigo',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
-        tags: ['React', 'Next.js', 'Typescript', 'Nest.js', 'PostgreSQL', 'Tailwindcss', 'Figma', 'Cypress', 'Storybook', 'Git'],
-        image: '/assets/project-placeholder.png',
+            'Transigo is an innovation-labeled platform for smart goods transportation, connecting clients and drivers through web and mobile applications with AI-powered optimization.',
+        tags: ['Flutter', 'Firestore', 'MySQL', 'Express.js', 'Python'],
+        image: '/assets/transigo.png',
         link: '#',
         github: '#',
     },
     {
-        title: 'Fiskil',
+        title: 'Creative',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
-        tags: ['React', 'Next.js', 'Typescript', 'Nest.js', 'PostgreSQL', 'Tailwindcss', 'Figma', 'Cypress', 'Storybook', 'Git'],
-        image: '/assets/project-placeholder.png',
+            'A creative and modern architect portfolio website designed to showcase projects with a strong focus on visuals, layout, and user experience.',
+        tags: ['PostgreSQL', 'Express.js','React','Node.js'],
+        image: '/assets/creative.png',
         link: '#',
         github: '#',
     },
+
     {
-        title: 'Fiskil',
+        title: 'Gros shop delivery',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
-        tags: ['React', 'Next.js', 'Typescript', 'Nest.js', 'PostgreSQL', 'Tailwindcss', 'Figma', 'Cypress', 'Storybook', 'Git'],
-        image: '/assets/project-placeholder.png',
+            'A B2B wholesale e-commerce platform enabling bulk product purchasing, order management, and scalable business workflows for professional clients.',
+        tags: ['Flutter', 'Php', 'MySQL', 'FCM','Getx'],
+        image: '/assets/ecomerce.jpg',
         link: '#',
         github: '#',
     },
