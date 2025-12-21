@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 const Footer = () => {
     return (
         <motion.footer
+            id="contact"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
