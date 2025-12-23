@@ -43,7 +43,7 @@ export const experiences = [
         logo: '/assets/master.svg',
         role: 'Master’s Degree – Data Engineering & Web Technologies',
         company: 'University',
-        startDate: '2022',
+        startDate: '2023',
         endDate: '2025',
         summary: [
             'Advanced studies in data engineering, web technologies, and distributed systems.',
