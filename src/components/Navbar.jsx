@@ -41,7 +41,7 @@ const Navbar = () => {
                         ))}
                         <div className="h-6 w-px bg-gray-700"></div>
                         <a
-                            href="/cv_ibrahim_bendada_10_2025.pdf"
+                            href="/cv_ibrahim_bendada_2026.pdf"
                             download="cv_ibrahim_bendada.pdf"
                             className="bg-white text-gray-900 px-4 py-2 rounded-xl font-medium hover:bg-gray-200 transition-colors"
                         >
@@ -83,7 +83,7 @@ const Navbar = () => {
                             ))}
                             <div className="pt-4">
                                 <a
-                                    href="/cv_ibrahim_bendada_10_2025.pdf"
+                                    href="/cv_ibrahim_bendada_2026.pdf"
                                     download="cv_ibrahim_bendada.pdf"
                                     className="block w-full text-center bg-white text-gray-900 px-4 py-2 rounded-xl font-medium hover:bg-gray-200 transition-colors"
                                     onClick={() => setIsOpen(false)}
