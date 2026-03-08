@@ -24,5 +24,7 @@ export const skills = [
     { name: 'Firebase', icon: '/assets/Firebase.svg' },
     { name: 'Dart', icon: '/assets/dart.svg' },
     { name: 'Python', icon: '/assets/Python.svg' },
+    { name: 'Nginx', icon: '/assets/nginx.svg' },
+    { name: 'Github Actions', icon: '/assets/GitActions.svg' },
     
 ];
