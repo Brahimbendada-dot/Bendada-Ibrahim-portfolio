@@ -14,10 +14,12 @@ const Projects = () => {
             const container = scrollContainerRef.current;
             const cardWidth = container.children[0].offsetWidth;
             const gap = 32; // 2rem gap
-            const scrollPosition = index * (cardWidth + gap);
+            const containerWidth = container.offsetWidth;
+            // Center the active card in the visible area
+            const scrollPosition = index * (cardWidth + gap) - (containerWidth - cardWidth) / 2;
 
             container.scrollTo({
-                left: scrollPosition,
+                left: Math.max(0, scrollPosition),
                 behavior: 'smooth'
             });
             setActiveIndex(index);
@@ -134,7 +136,7 @@ const Projects = () => {
                                             <h3 className={`text-xl font-bold mb-2 transition-colors ${isActive ? 'text-white' : 'text-gray-400'}`}>
                                                 {project.title}
                                             </h3>
-                                            <p className="text-gray-400 text-sm mb-4 flex-grow line-clamp-3">
+                                            <p className="text-gray-400 text-sm mb-4 flex-grow">
                                                 {project.description}
                                             </p>
 
