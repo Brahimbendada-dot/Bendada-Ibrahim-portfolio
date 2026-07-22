@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Github, Linkedin, Facebook } from 'lucide-react';
+import { MapPin, Github, Linkedin, Facebook, Phone } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
@@ -41,6 +41,9 @@ const Hero = () => {
                             </a>
                             <a href="https://www.linkedin.com/in/ibrahim-bendada-5021a2243/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
                                 <Linkedin className="w-6 h-6" />
+                            </a>
+                            <a href="https://wa.me/213555924531" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-green-400 transition-colors" title="Call on WhatsApp">
+                                <Phone className="w-6 h-6" />
                             </a>
                         </div>
                     </motion.div>
