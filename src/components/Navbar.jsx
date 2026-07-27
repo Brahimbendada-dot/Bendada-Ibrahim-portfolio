@@ -41,8 +41,8 @@ const Navbar = () => {
                         ))}
                         <div className="h-6 w-px bg-gray-700"></div>
                         <a
-                            href="/cv_ibrahim_bendada_2026.pdf"
-                            download="cv_ibrahim_bendada.pdf"
+                            href="/Ibrahim_Bendada_Software_Engineer_CV_2026.pdf"
+                            download="Ibrahim_Bendada_Software_Engineer_CV_2026.pdf"
                             className="bg-white text-gray-900 px-4 py-2 rounded-xl font-medium hover:bg-gray-200 transition-colors"
                         >
                             Download CV
@@ -83,8 +83,8 @@ const Navbar = () => {
                             ))}
                             <div className="pt-4">
                                 <a
-                                    href="/cv_ibrahim_bendada_2026.pdf"
-                                    download="cv_ibrahim_bendada.pdf"
+                                    href="/Ibrahim_Bendada_Software_Engineer_CV_2026.pdf"
+                                    download="Ibrahim_Bendada_Software_Engineer_CV_2026.pdf"
                                     className="block w-full text-center bg-white text-gray-900 px-4 py-2 rounded-xl font-medium hover:bg-gray-200 transition-colors"
                                     onClick={() => setIsOpen(false)}
                                 >
