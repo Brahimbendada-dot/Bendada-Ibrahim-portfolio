@@ -1,5 +1,14 @@
 export const projects = [
     {
+        title: 'TransiGo Dashboard',
+        description:
+            'A full-featured logistics management dashboard built to centralize bookings, drivers, vehicles, offers, payments, and delivery operations in one scalable platform. Developed with React, Node.js, Express, MySQL, and REST APIs.',
+        tags: ['React', 'Node.js', 'Express', 'MySQL', 'REST APIs'],
+        image: '/assets/transigo_dashboard.jpg',
+        link: '#',
+        github: '#',
+    },
+    {
         title: 'Transigo',
         description:
             'Transigo is an innovation-labeled platform for smart goods transportation, connecting clients and drivers through web and mobile applications with AI-powered optimization.',
