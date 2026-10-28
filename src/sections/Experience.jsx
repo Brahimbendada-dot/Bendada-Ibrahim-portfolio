@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Experience = () => {
     return (
-        <section id="work" className="py-16 md:py-24 bg-gray-950 transition-colors duration-300">
+        <section id="experience" className="py-16 md:py-24 bg-gray-950 transition-colors duration-300">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col items-center justify-center space-y-4 mb-12">
                     <div className="bg-gray-700 px-4 py-1 rounded-full">
