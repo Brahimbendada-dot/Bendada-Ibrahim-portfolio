@@ -37,9 +37,23 @@ const Experience = () => {
                                     />
                                 </div>
                                 <div className="flex flex-col md:flex-row md:justify-between w-full gap-2 md:gap-8">
-                                    <h3 className="text-xl font-bold text-white">
-                                        {exp.role}
-                                    </h3>
+                                    <div>
+                                        <div className="flex flex-wrap items-center gap-2">
+                                            <h3 className="text-xl font-bold text-white">
+                                                {exp.role}
+                                            </h3>
+                                            {exp.badge && (
+                                                <span className="px-2 py-0.5 rounded text-xs font-mono font-medium bg-gray-800 text-gray-300 border border-gray-700">
+                                                    {exp.badge}
+                                                </span>
+                                            )}
+                                        </div>
+                                        {exp.company && (
+                                            <p className="text-sm text-gray-400 mt-1">
+                                                {exp.company}
+                                            </p>
+                                        )}
+                                    </div>
                                     <span className="text-gray-400 font-medium whitespace-nowrap">
                                         {exp.startDate} - {exp.endDate}
                                     </span>

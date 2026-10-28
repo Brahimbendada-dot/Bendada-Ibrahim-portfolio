@@ -1,5 +1,18 @@
 export const experiences = [
     {
+        logo: '/assets/university.svg',
+        role: 'University Lecturer — Free & Open Source Software',
+        company: 'Ferhat Abbas University Sétif 1',
+        badge: 'VACATAIRE',
+        startDate: 'Oct 2026',
+        endDate: 'Present',
+        summary: [
+            'Teaching Free and Open Source Software (FOSS - logiciel libre) to undergraduate Geology students at Ferhat Abbas University Sétif 1.',
+            'Participating in both lectures (Cours Magistraux — CM) and practical sessions (Travaux Pratiques — TP), covering open-source principles, software licensing, Linux/MX Linux, terminal commands, and scientific computing tools.',
+            'Additionally delivering remote CM and TP sessions via Google Meet for a second-year undergraduate Geology group (Licence 2 Géologie).'
+        ],
+    },
+    {
         logo: '/assets/remote.svg',
         role: 'Flutter Developer (Remote)',
         company: 'Remote / Global Clients',
